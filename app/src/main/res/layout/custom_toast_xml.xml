@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/relativeLO_cus_toast_xml_root"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/imageview_cust_Toast"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:src="@drawable/goku"/>
+    <TextView
+        android:layout_toRightOf="@id/imageview_cust_Toast"
+        android:layout_alignBottom="@id/imageview_cust_Toast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="custom toast displaying goku"
+        android:textColor="#000"/>
+
+
+</RelativeLayout>
